@@ -1,0 +1,108 @@
+Started by GitHub push by bhargava415
+Building remotely on [8mha:////4JA2JOzTsxb4TI2zgBqWP3CMmxdxoftl2jwV95ErrxK5AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (jenkins_slave1) in workspace /home/jenkins2/jenkins_slave/workspace/java
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:bhargava415/java-hello-world-maven.git # timeout=10
+Fetching upstream changes from git@github.com:bhargava415/java-hello-world-maven.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:bhargava415/java-hello-world-maven.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/bhaargava-ci^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/bhaargava-ci^{commit} # timeout=10
+Checking out Revision 8aa590c67b24a7b9eff6c0af0587c5e3f8c830b5 (refs/remotes/origin/bhaargava-ci)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8aa590c67b24a7b9eff6c0af0587c5e3f8c830b5
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+[java] $ mvn clean package
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding My App 1.0[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mmyapp[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/jenkins2/jenkins_slave/workspace/java/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmyapp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/jenkins2/jenkins_slave/workspace/java/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mmyapp[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/jenkins2/jenkins_slave/workspace/java/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mmyapp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/jenkins2/jenkins_slave/workspace/java/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mmyapp[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mmyapp[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mmyapp[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/jenkins2/jenkins_slave/workspace/java/target/myapp-1.0.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-assembly-plugin:2.4.1:single[m [1m(make-assembly)[m @ [36mmyapp[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/jenkins2/jenkins_slave/workspace/java/target/myapp-1.0-jar-with-dependencies.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 3.674 s
+[[1;34mINFO[m] Finished at: 2018-05-13T00:21:25Z
+[[1;34mINFO[m] Final Memory: 16M/56M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Pushing HEAD to branch develop at repo origin
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git push git@github.com:bhargava415/java-hello-world-maven.git HEAD:develop
+ERROR: Failed to push branch develop to origin
+hudson.plugins.git.GitException: Command "git push git@github.com:bhargava415/java-hello-world-maven.git HEAD:develop" returned status code 1:
+stdout: 
+stderr: To github.com:bhargava415/java-hello-world-maven.git
+ ! [rejected]        HEAD -> develop (non-fast-forward)
+error: failed to push some refs to 'git@github.com:bhargava415/java-hello-world-maven.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. Check out this branch and integrate the remote changes
+hint: (e.g. 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1996)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1715)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:72)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$8.execute(CliGitAPIImpl.java:2075)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1.call(RemoteGitImpl.java:153)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1.call(RemoteGitImpl.java:146)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:210)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:53)
+	at hudson.remoting.Request$2.run(Request.java:364)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	Suppressed: hudson.remoting.Channel$CallSiteStackTrace: Remote call to slave1
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1737)
+		at hudson.remoting.UserResponse.retrieve(UserRequest.java:313)
+		at hudson.remoting.Channel.call(Channel.java:952)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.execute(RemoteGitImpl.java:146)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.invoke(RemoteGitImpl.java:132)
+		at com.sun.proxy.$Proxy73.execute(Unknown Source)
+		at hudson.plugins.git.GitPublisher.perform(GitPublisher.java:328)
+		at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:45)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+		at hudson.model.Build$BuildExecution.post2(Build.java:186)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+		at hudson.model.Run.execute(Run.java:1752)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:97)
+		at hudson.model.Executor.run(Executor.java:429)
+Build step 'Git Publisher' marked build as failure
+Finished: FAILURE

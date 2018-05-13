@@ -1,0 +1,60 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.20">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.2.9"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.2.9">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.29.0">
+      <projectUrl>https://github.com/bhargava415/java-hello-world-maven.git/</projectUrl>
+      <displayName>bhaargava-ci</displayName>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.49">
+    <script>pipeline {
+agent { label &apos;slave1&apos; }
+//checkout([$class: &apos;GitSCM&apos;, branches: [[name: &apos;*/bhaargava-ci&apos;]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: &apos;7a0b6147-dbed-45e3-8dd3-451ed3c4dddd&apos;, url: &apos;git@github.com:bhargava415/java-hello-world-maven.git&apos;]]])
+
+stages {
+stage(&apos;checkout&apos;) { 
+steps {    
+git(
+url: &apos;git@github.com:bhargava415/java-hello-world-maven.git&apos;,
+credentialsId: &apos;7a0b6147-dbed-45e3-8dd3-451ed3c4dddd&apos;,
+branch: &apos;bhaargava-ci&apos;
+) 
+}
+}
+stage(&apos;Build&apos;) {
+steps {
+sh &apos;mvn clean package&apos;
+}
+}
+stage(&apos;Test&apos;){
+steps {
+sh &apos;mvn test&apos;
+}
+}
+stage(&apos;Deploy&apos;) {
+steps {
+sh &apos;echo &quot;final deployment&quot;&apos;
+}
+}
+stage(&apos;run&apos;) {
+steps {
+sh &apos;java -cp /home/jenkins2/jenkins_slave/workspace/first_pipeline/target/myapp-1.0.jar com.myorganization.app.Main&apos; 
+}
+}
+}
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

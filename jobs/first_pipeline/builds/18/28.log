@@ -1,0 +1,4 @@
+[first_pipeline] Running shell script
++ cd ..
++ cd target
+/home/jenkins2/jenkins_slave/workspace/first_pipeline@tmp/durable-9081e0ce/script.sh: 2: cd: can't cd to target

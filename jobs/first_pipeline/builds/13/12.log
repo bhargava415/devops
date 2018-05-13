@@ -1,0 +1,3 @@
+[first_pipeline] Running shell script
++ mvn clean package
+/var/lib/jenkins/workspace/first_pipeline@tmp/durable-b26a51b1/script.sh: 2: /var/lib/jenkins/workspace/first_pipeline@tmp/durable-b26a51b1/script.sh: mvn: not found

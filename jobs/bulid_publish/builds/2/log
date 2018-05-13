@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4P4ssoNDF9OraFlm/diqpconcjhzfeCcRrIw4VaoHQxLAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+kmlmTkp8SmpBTn5lfoAorUUX8cAAAA=[0mbuild_deploy" build number [8mha:////4FTs9zC7kGBYr4Uzh/NVV1R0OVxKRFEo5dilGuxTF3EtAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/aTSzJyU+JTUgpz8Sn1zANSvyazIAAAA[0m7
+originally caused by:
+ Started by upstream project "[8mha:////4FxNAySzm88N3GHTD8FOA7HHtXxJlqafOmIsZMsW5rbzAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP2k0syclPiS1OISfQDN1TyfxQAAAA==[0mbuild_test" build number [8mha:////4JfWDBK1bg/1Oefz49x1C2oPnv5XFrK+N9+LRJx9YCdbAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwk/aTSzJyU+JLU4hJ9MwC4xUxJxgAAAA==[0m6
+ originally caused by:
+  Started by upstream project "[8mha:////4DcMl66qFixFnvztBBQGnlyQYE3Fc7HnQPVSREKkHJi1AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2k0syclPiU1LLUnPwCfQDsZTRTyAAAAA==[0mbuild_develop" build number [8mha:////4LOVQnIdA6RX6K/7f6Xdrc6nyebkz7hRl4EvDnVAq9pSAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/aTSzJyU+JTUstSc/AJ9MwCbxLtmyQAAAA==[0m6
+  originally caused by:
+   Started by GitHub push by bhargava415
+Building remotely on [8mha:////4JA2JOzTsxb4TI2zgBqWP3CMmxdxoftl2jwV95ErrxK5AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (jenkins_slave1) in workspace /home/jenkins2/jenkins_slave/workspace/bulid_publish
+[bulid_publish] $ /bin/sh -xe /tmp/jenkins5389613942843223458.sh
++ echo bulid publish
+bulid publish
+Finished: SUCCESS

@@ -1,0 +1,5 @@
+[first_pipeline] Running shell script
++ time
+Usage: time [-apvV] [-f format] [-o file] [--append] [--verbose]
+       [--portability] [--format=format] [--output=file] [--version]
+       [--quiet] [--help] command [arg...]

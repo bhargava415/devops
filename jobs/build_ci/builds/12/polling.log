@@ -1,0 +1,11 @@
+Started on May 7, 2018 3:04:37 AM
+Started by event from 192.30.252.35 ⇒ http://35.204.229.116:8080/github-webhook/ on Mon May 07 03:04:37 UTC 2018
+Using strategy: Default
+[poll] Last Built Revision: Revision 4127cc84960f4201630654fb57baf27a1f31b431 (refs/remotes/origin/master)
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git ls-remote -h git@github.com:bhargava415/java-hello-world-maven.git # timeout=10
+Found 3 remote heads on git@github.com:bhargava415/java-hello-world-maven.git
+[poll] Latest remote head revision on refs/heads/master is: b5bfd24bd714befdb504fc2c9050df5e66020f78
+Done. Took 1 sec
+Changes found

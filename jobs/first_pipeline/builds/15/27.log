@@ -1,0 +1,3 @@
+[first_pipeline] Running shell script
++ java -cp /home/jenkins2/jenkins_slave/workspace/first_pipeline/target/myapp-1.0-jar-with-dependencies.jar com.myorganization.app
+Error: Could not find or load main class com.myorganization.app

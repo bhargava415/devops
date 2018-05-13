@@ -1,0 +1,19 @@
+Started by user [8mha:////4L1ZVWEk+5pQdUrpmn/4ttilkshl8gU0lmAiW9/W13nnAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZB/dLi1CL9pIzEonSgYSaGpgD95xgUxgAAAA==[0mbhargava
+Building in workspace /var/lib/jenkins/workspace/bhargava-ci
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/bhargava415/devops.git # timeout=10
+Fetching upstream changes from https://github.com/bhargava415/devops.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/bhargava415/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 116e165e3e907559e83a7646808f256c9e6519e3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 116e165e3e907559e83a7646808f256c9e6519e3
+Commit message: "first python prog"
+First time build. Skipping changelog.
+[bhargava-ci] $ /bin/sh -xe /tmp/jenkins1743785071205669943.sh
++ /usr/bin/python hello.py
+hello world
+Finished: SUCCESS

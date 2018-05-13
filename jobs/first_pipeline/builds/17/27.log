@@ -1,0 +1,2 @@
+[first_pipeline] Running shell script
++ cd /home/jenkins2/jenkins_slave/workspace/first_pipeline/target

@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4FxNAySzm88N3GHTD8FOA7HHtXxJlqafOmIsZMsW5rbzAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP2k0syclPiS1OISfQDN1TyfxQAAAA==[0mbuild_test" build number [8mha:////4Hbd5Q0GPcGCA6RTEcQzPjzKL/AKHeR+zM41Z+6H68+zAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwk/aTSzJyU+JLU4hJ9EwCUpEKnxgAAAA==[0m4
+originally caused by:
+ Started by upstream project "[8mha:////4DcMl66qFixFnvztBBQGnlyQYE3Fc7HnQPVSREKkHJi1AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2k0syclPiU1LLUnPwCfQDsZTRTyAAAAA==[0mbuild_develop" build number [8mha:////4Dt5euuhYxg0dRILske6SaP4kCzIg/CjsK86xlvw9hB8AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/aTSzJyU+JTUstSc/AJ9UwAhlbL/yQAAAA==[0m5
+ originally caused by:
+  Started by user [8mha:////4L1ZVWEk+5pQdUrpmn/4ttilkshl8gU0lmAiW9/W13nnAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZB/dLi1CL9pIzEonSgYSaGpgD95xgUxgAAAA==[0mbhargava
+Building on master in workspace /var/lib/jenkins/workspace/build_deploy
+[build_deploy] $ /bin/sh -xe /tmp/jenkins3508465877609555968.sh
++ echo deployed successfully
+deployed successfully
+Finished: SUCCESS

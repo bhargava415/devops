@@ -1,0 +1,3 @@
+[first_pipeline] Running shell script
++ ifconfig
+/var/lib/jenkins/workspace/first_pipeline@tmp/durable-bb924358/script.sh: 2: /var/lib/jenkins/workspace/first_pipeline@tmp/durable-bb924358/script.sh: ifconfig: not found

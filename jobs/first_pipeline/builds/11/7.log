@@ -1,0 +1,22 @@
+Cloning the remote Git repository
+Cloning repository git@github.com:bhargava415/java-hello-world-maven.git
+ > git init /home/jenkins2/jenkins_slave/workspace/first_pipeline # timeout=10
+Fetching upstream changes from git@github.com:bhargava415/java-hello-world-maven.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:bhargava415/java-hello-world-maven.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:bhargava415/java-hello-world-maven.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:bhargava415/java-hello-world-maven.git # timeout=10
+Fetching upstream changes from git@github.com:bhargava415/java-hello-world-maven.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:bhargava415/java-hello-world-maven.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/bhaargava-ci^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/bhaargava-ci^{commit} # timeout=10
+Checking out Revision e4691190006888b865036e9ef0ed8faec40a810a (refs/remotes/origin/bhaargava-ci)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e4691190006888b865036e9ef0ed8faec40a810a
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b bhaargava-ci e4691190006888b865036e9ef0ed8faec40a810a
+Commit message: "Update README.md"
+ > git rev-list --no-walk e4691190006888b865036e9ef0ed8faec40a810a # timeout=10

@@ -1,0 +1,26 @@
+Started by user [8mha:////4L1ZVWEk+5pQdUrpmn/4ttilkshl8gU0lmAiW9/W13nnAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZB/dLi1CL9pIzEonSgYSaGpgD95xgUxgAAAA==[0mbhargava
+Building remotely on [8mha:////4JA2JOzTsxb4TI2zgBqWP3CMmxdxoftl2jwV95ErrxK5AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (jenkins_slave1) in workspace /home/jenkins2/jenkins_slave/workspace/bhargava-ci
+Cloning the remote Git repository
+Cloning repository https://github.com/bhargava415/devops.git
+ > git init /home/jenkins2/jenkins_slave/workspace/bhargava-ci # timeout=10
+Fetching upstream changes from https://github.com/bhargava415/devops.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/bhargava415/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/bhargava415/devops.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/bhargava415/devops.git # timeout=10
+Fetching upstream changes from https://github.com/bhargava415/devops.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/bhargava415/devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 116e165e3e907559e83a7646808f256c9e6519e3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 116e165e3e907559e83a7646808f256c9e6519e3
+Commit message: "first python prog"
+ > git rev-list --no-walk 116e165e3e907559e83a7646808f256c9e6519e3 # timeout=10
+[bhargava-ci] $ /bin/sh -xe /tmp/jenkins7003049247767244959.sh
++ /usr/bin/python hello.py
+hello world
+Finished: SUCCESS

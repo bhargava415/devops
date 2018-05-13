@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4FxNAySzm88N3GHTD8FOA7HHtXxJlqafOmIsZMsW5rbzAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP2k0syclPiS1OISfQDN1TyfxQAAAA==[0mbuild_test" build number [8mha:////4L6n6k4Eea2hcWpVbD7zUawmNXd+ktgYuoH+ubUeslwyAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkH9rPwk/aTSzJyU+JLU4hJ9UwAClEXQxgAAAA==[0m5
+originally caused by:
+ Started by upstream project "[8mha:////4DcMl66qFixFnvztBBQGnlyQYE3Fc7HnQPVSREKkHJi1AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2k0syclPiU1LLUnPwCfQDsZTRTyAAAAA==[0mbuild_develop" build number [8mha:////4LOVQnIdA6RX6K/7f6Xdrc6nyebkz7hRl4EvDnVAq9pSAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwk/aTSzJyU+JTUstSc/AJ9MwCbxLtmyQAAAA==[0m6
+ originally caused by:
+  Started by GitHub push by bhargava415
+Building on master in workspace /var/lib/jenkins/workspace/build_deploy
+[build_deploy] $ /bin/sh -xe /tmp/jenkins3570300585788655249.sh
++ echo deployed successfully
+deployed successfully
+Triggering a new build of [8mha:////4A9ec0YhWsUeBmYHKu9I8r3/Keb/krsCjExe5KRZVmtiAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2k0pzMlPiC0qSczOIMfQAiDUEQyAAAAA==[0mbulid_publish
+Finished: SUCCESS
